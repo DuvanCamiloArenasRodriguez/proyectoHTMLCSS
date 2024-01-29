@@ -28,3 +28,40 @@
     padding: 30px;
     color: #fff;
 }
+
+.cuadro1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75%;
+    justify-items: center;
+    align-items: center;
+    /* grid-auto-rows: 10vh; */
+}
+
+#home {
+    width: 37vw;
+    height: 37vw;
+    justify-self: flex-start;
+    margin-top: 40px;
+}
+
+.titulo2 h1{
+    color: #ff702a;
+    font-size: 5vw;
+    margin-bottom: 10px;
+}
+
+.titulo2 p{
+    color: #fff;
+    font-size: 2vw;
+}
+
+.titulo2 button {
+    background-color: #ff702a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    /* border-radius: 1vw; */
+    padding: 10px;
+    border: none;
+    
+}
