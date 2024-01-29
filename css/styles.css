@@ -310,7 +310,43 @@ main {
 .cuadro5 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 60vh;
+
+    justify-content: center ;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cuadro5 div {
+    display: flex;
+    width: 80%;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffefe8;
+    font-size: x-large;
+}
+
+.cuadro5 button {
+    background-color: #ff702a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    /* border-radius: 1vw; */
+    padding: 10px 25px 10px 25px;
+    border: none;
+    font-size: 1vw;
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
