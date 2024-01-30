@@ -158,6 +158,12 @@ main {
     width: 800px;
 }
 
+.productos img {
+    height: 15vw;
+    width: 15vw;
+    object-fit: contain;
+}
+
 .productos {
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
@@ -173,11 +179,7 @@ main {
 
 }
 
-.productos img {
-    height: 15vw;
-    width: 15vw;
-    object-fit: contain;
-}
+
 
 .productos h5 {
     color: #ff702a;
@@ -261,14 +263,14 @@ main {
 
 
 .cuadro4 {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 25% 75%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /* justify-items: center;
+    justify-items: center;
     align-items: center; */
-
+    width: 100%;
 }
 
 .servicios img {
@@ -278,24 +280,27 @@ main {
 }
 
 .titulo5 {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px; */
+    text-align: center;
 }
 
 .titulo5 h3 {
     color: #ff702a;
-    font-size: 1.2vw;
+    /* font-size: 1.2vw; */
     margin-top: 40px;
     margin-bottom: 0px;
+    font-size: clamp(5px,5vw,25px);
 }
 
 .titulo5 h2 {
     color: #fff;
-    font-size: 3vw;
+    /* font-size: 3vw; */
     margin-top: 10px;
+    font-size: clamp(15px,5vw,40px);
 }
 
 .servicios {
@@ -307,6 +312,7 @@ main {
 
 .servicios h3 {
     color: #ff702a;
+    font-size: clamp(15px,5vw,35px);
 }
 
 .servicios p {
@@ -314,6 +320,7 @@ main {
     text-align: center;
     /* width: 1vw;
     height: 1vw; */
+    font-size: clamp(15px,5vw,23px);
 }
 
 .servicio1, .servicio2, .servicio3 {
@@ -470,8 +477,30 @@ footer i {
     }
 
     .productos img {
-        height: 70%;
-        width: 70%;
+        height: 60%;
+        width: 60%;
         object-fit: contain;
+    }
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .servicios img {
+        height: 30%;
+        width: 30%;
+        object-fit: contain;
+    }
+
+    .servicios p {
+        /* color: #fff;
+        text-align: center;
+        width: 1vw;
+        height: 1vw;
+        font-size: clamp(15px,5vw,23px); */
+        width: 335px;
     }
 }
