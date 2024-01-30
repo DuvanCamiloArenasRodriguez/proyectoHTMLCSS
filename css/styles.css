@@ -341,12 +341,45 @@ main {
 }
 
 
-
-
 footer {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 40vh;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    justify-items: center;
+    align-items: flex-start;
+    /* justify-content: center;
+    align-content: center; */
+    /* text-align: center; */
+    color: #fff;
+    margin: 0 150px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3::after {
+    display: block;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #ff702a;
+    margin-top: 1px;
+    
+}
+
+.contact div{
+    flex-direction: row;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer i {
+    padding: 5px;
+    font-size: xx-large;
+    color: #ff702a;
 }
