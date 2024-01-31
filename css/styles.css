@@ -147,7 +147,7 @@ main {
 } */
 
 .cuadro3 {
-    width: 100%;
+    width: 100vw;
 }
 
 .titulo4 {
@@ -155,7 +155,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     border: solid 1px red;
-    width: 800px;
+    /* width: 800px; */
 }
 
 .productos img {
@@ -270,7 +270,7 @@ main {
     grid-row-gap: 0px;
     justify-items: center;
     align-items: center; */
-    width: 100%;
+    width: 100vw;
 }
 
 .servicios img {
@@ -442,7 +442,7 @@ footer i {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     main {
         margin: 0 0px;
     }
@@ -526,7 +526,6 @@ footer i {
         /* align-items: flex-start;
         justify-content: center; 
         align-content: center;  */
-       
-        
     }
+    
 }
