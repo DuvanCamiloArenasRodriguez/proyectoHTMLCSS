@@ -24,4 +24,4 @@ Bienvenido/a a la página web de comidas rápidas. Esta forma parte del proyecto
 
 ## Vídeo Celular
 
-![]()
+![](https://github.com/DuvanCamiloArenasRodriguez/proyectoHTMLCSS/blob/main/storage/celular.gif)
